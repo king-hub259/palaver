@@ -27,7 +27,7 @@
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="Shortzz"
+        android:label="Palaver"
         android:enableOnBackInvokedCallback="true"
         android:usesCleartextTraffic="true">
         <activity
@@ -58,7 +58,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <!-- Custom scheme -->
-                <data android:scheme="shortzz" />
+                <data android:scheme="palaver" />
             </intent-filter>
 
             <intent-filter android:autoVerify="true">
@@ -68,7 +68,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="https" />
-                <data android:host="_____ BASE URL ______" />
+                <data android:host="https://chat.edubest.com.ng/" />
             </intent-filter>
 
             <meta-data
@@ -87,7 +87,7 @@
             android:value="______ GOOGLE API ________" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:value="shortzz" />
+            android:value="palaver" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
